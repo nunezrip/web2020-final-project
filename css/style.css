@@ -1,0 +1,68 @@
+/* Formatting the document/page */
+
+* {
+	border-width: 0;
+	background-color: rgb(63, 56, 56);
+}
+
+
+/* Setting the main box/container*/
+
+body {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.container {
+	box-sizing: border-box;
+	padding: 10px 10px;
+	height: 100vh;
+	color: white;
+}
+
+img {
+	height: 200px;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.btn {
+	color: #fff;
+	padding: 20px 40px;
+	font-size: 20px;
+	background-color: #847a84;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #bfd18f
+}
+
+h1 {
+	font-size: 6em;
+	color: #847a84;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.qdiv {
+	padding: 10px 0px 10px 0px;
+	color: rgb(203, 199, 199);
+	font-size: 25px;
+	font-weight: bold;
+	padding: 30px;
+	font-family: 'Spectral SC', serif;
+}
+
+ul {
+	color: rgb(241, 240, 231);
+	font-size: 25px;
+	width: 100%;
+	margin: 20px;
+	font-family: 'Spectral SC', serif;
+}
